@@ -1,0 +1,39 @@
+.BottomNavBarClasses{
+  background-color: #001730;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+}
+
+.BottomNavLink{
+  color: #00ECFF;
+  font-weight: bold;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  width: 25%;
+}
+.BottomNavLink:hover{
+  color: white;
+  background-color: #0f2742;
+}
+
+.Icons{
+  color: #00ECFF;
+  display: inline;
+  font-weight: bold;
+  height: 2em;
+}
+.Label{
+  display: none;
+}
+
+@media only screen and (min-width: 750px) {
+  .Icons{
+    display: none;
+  }
+  .Label{
+    color: #00ECFF;
+    display: inline;
+  }
+}

@@ -1,0 +1,25 @@
+.TopNav {
+  background-color: #001730;
+  color: #00ECFF;
+}
+
+.TopNavText{
+    color: #00ECFF;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.TopNavLink{
+  text-decoration: none;
+}
+
+.TopNavLink:hover{
+  color: white;
+  background-color: #001730;
+}
+
+.TopNavDropdown{
+  background-color: #001730;
+  color: #00ECFF;
+  border: none;
+}

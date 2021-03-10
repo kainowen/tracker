@@ -1,0 +1,23 @@
+.HomeFeedItem{
+  background-color: lightgray;
+  border: darkGray 1px solid;
+  border-radius: 20px;
+  height: 100px;
+  margin-top: 2rem;
+  padding: 1rem;
+  width: 100%;
+}
+.HomeFeedItemHeader{
+  font-weight: bold;
+}
+
+.HomeFeedItemDateTime{
+    float:right;
+    position: relative;
+    bottom: 0;
+}
+
+p{
+  margin: 0;
+  padding: 0;
+}
