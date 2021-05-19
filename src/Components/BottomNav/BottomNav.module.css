@@ -5,14 +5,19 @@
   width: 100%;
 }
 
+.BottomNavInner{
+  display: flex;
+}
+
 .BottomNavLink{
   color: #00ECFF;
-  font-weight: bold;
+  font-size: 0.8rem;
   padding: 10px;
   text-align: center;
   text-decoration: none;
   width: 25%;
 }
+
 .BottomNavLink:hover{
   color: white;
   background-color: #0f2742;
@@ -22,13 +27,19 @@
   color: #00ECFF;
   display: inline;
   font-weight: bold;
-  height: 2em;
 }
 .Label{
   display: none;
 }
 
 @media only screen and (min-width: 750px) {
+  .BottomNavBarClasses{
+    position: relative;
+  }
+  .BottomNavLink{
+    padding: 0 10px;
+    width: auto;
+  }
   .Icons{
     display: none;
   }

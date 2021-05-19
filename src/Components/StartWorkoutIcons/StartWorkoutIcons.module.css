@@ -1,0 +1,24 @@
+
+
+.selectButton{
+  background-color: #F6F6F6 !important;
+  border: solid 2px #EEEEEE;
+  border-radius: 15px;
+	height: 175px;
+  margin:auto;
+  width: 175px;
+}
+
+.selectButton-active{
+	border: solid 3px #00ECFF;
+}
+
+.selectButton:hover, .selectButton:active{
+  border: solid 3px #00ECFF;
+  background-color: white !important;
+}
+
+.Emphasis{
+  color: #00ECFF !important;
+  font-weight: bold;
+}

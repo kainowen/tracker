@@ -1,4 +1,4 @@
-import classes from './App.module.css';
+import './App.css';
 //import firebase from 'firebase/firebase';
 import { BrowserRouter, Route } from "react-router-dom";
 
@@ -14,15 +14,15 @@ import BottomNav from "./Components/BottomNav/BottomNav";
 
 function App() {
   return (
-    <div className={classes.Body}>
+    <div className="Body">
     <BrowserRouter>
       <Route path="/"> <TopNav /> </Route>
+      <Route path="/"> <BottomNav /> </Route>
         <Route path="/" exact ><Home /></Route>
         <Route path="/train"><Train /></Route>
         <Route path="/progress"><Progress /></Route>
         <Route path="/learn"><Learn /></Route>
         <Route path="/settings"><Settings /></Route>
-      <Route path="/"> <BottomNav /> </Route>
     </BrowserRouter>
     </div>
   );

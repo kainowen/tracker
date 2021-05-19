@@ -1,10 +1,11 @@
 .HomeFeedItem{
-  background-color: lightgray;
-  border: darkGray 1px solid;
-  border-radius: 20px;
+  background-color: #F6F6F6;
+  border: solid #EFEFEF 1px;
+  border-radius: 10px;
   height: 100px;
-  margin-top: 2rem;
+  margin-top: 1rem;
   padding: 1rem;
+  text-align: left;
   width: 100%;
 }
 .HomeFeedItemHeader{
@@ -15,6 +16,7 @@
     float:right;
     position: relative;
     bottom: 0;
+    font-size: 0.8em;
 }
 
 p{
