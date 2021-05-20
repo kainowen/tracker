@@ -25,7 +25,16 @@
   right: 0;
   min-width: 6em !important;
   position: absolute !important;
+}
+.HeaderLogo {
+  width: 60px;
+  padding-right: 10px;
+}
 
+.Avatar {
+  border-radius: 50%;
+  width: 60px;
+  padding: 10px;
 }
 
 button{
@@ -36,4 +45,10 @@ button{
   font: inherit;
   cursor: pointer;
   outline: inherit;
+}
+
+@media only screen and (min-width: 600px) {
+  .HeaderLogo {
+    width: 60px;
+  }
 }

@@ -3,6 +3,6 @@
 }
 
 .bg-dark{
-  background-color: #001730;
-  color: #00ECFF;
+  background-color: #001730 !important;
+  color: #00ECFF !important;
 }
